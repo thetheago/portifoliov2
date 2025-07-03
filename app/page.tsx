@@ -277,7 +277,7 @@ export default function Portfolio() {
       const data = await response.json()
 
       // Filtrar repositórios excluindo os especificados
-      const excludedRepos = ["focus-brew", "thetheago", "kickstart.nvim"]
+      const excludedRepos = ["focus-brew", "thetheago", "kickstart.nvim", "portifoliov2"]
       const filteredRepos = data.filter((repo: Repository) => !excludedRepos.includes(repo.name))
 
       setRepositories(filteredRepos)
