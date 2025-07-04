@@ -63,7 +63,7 @@ const experiences: Experience[] = [
     position: "Full Stack Developer",
     period: "Set 2021 - Jan 2022",
     location: "Belo Horizonte, MG",
-    technologies: ["PHP", "JavaScript", "MySQL", "Bootstrap", "CSS"],
+    technologies: ["PHP 5.6", "HTML", "JavaScript", "MySQL", "CSS"],
     learnings: [
       "Atualização de sistemas legados",
       "Controle de estoque e localização",
@@ -80,7 +80,7 @@ const experiences: Experience[] = [
     position: "Full Stack Engineer",
     period: "Fev 2022 - Out 2022",
     location: "Belo Horizonte, MG",
-    technologies: ["PHP", "Laravel", "JavaScript", "Docker", "SQL Server", "Vagrant"],
+    technologies: ["PHP 7.4", "Laravel", "Docker", "SQL Server", "Vagrant"],
     learnings: [
       "Containerização com Docker",
       "Sistema de gestão acadêmica",
@@ -88,7 +88,7 @@ const experiences: Experience[] = [
       "Apresentações técnicas para equipe",
     ],
     description:
-      "Implementei estrutura completa da aplicação em Docker, desenvolvi sistema inovador de gestão acadêmica para ENEM/Processos Seletivos e realizei refatoração refinada em seção crítica do código.",
+      "Implementei estrutura completa da aplicação em Docker, atuei em correções e novas implementações em um sistema de Processos Seletivos, realizei refatoração refinada em seção crítica do código.",
     logo: "https://media.glassdoor.com/sqll/2487947/aix-sistemas-squarelogo-1554087025811.png",
   },
   {
@@ -97,12 +97,12 @@ const experiences: Experience[] = [
     position: "Full Stack Engineer",
     period: "Jul 2022 - Dez 2022",
     location: "Natal, RN",
-    technologies: ["Python", "Django", "React", "TypeScript", "SQL Server", "Node.js"],
+    technologies: ["Python", "Django", "React", "TypeScript", "SQL Server"],
     learnings: [
-      "Otimização meticulosa de páginas",
-      "Correções em SQL Server",
-      "Cálculos de taxas precisos",
-      "Padrões superiores de interface",
+      "Conhecimento em React",
+      "Conhecimento em Django",
+      "Aprofundamento em SQL Server (Principalmente Procedures e View Tables)",
+      "Componentização",
     ],
     description:
       "Conduzi otimização meticulosa de páginas, integrei padrões superiores resultando em interface mais intuitiva e código mais sólido e sustentável.",
@@ -114,16 +114,16 @@ const experiences: Experience[] = [
     company: "For People",
     position: "Full Stack Engineer",
     period: "Dez 2022 - Mai 2023",
-    location: "Brasil",
-    technologies: ["PHP", "Laravel", "React", "TypeScript", "AWS", "Docker"],
+    location: "Belo Horizonte, MG",
+    technologies: ["PHP 7.4", "Laravel", "React", "TypeScript", "Docker"],
     learnings: [
       "Otimização de queries (n+1)",
-      "Geração de relatórios de absenteísmo",
+      "Geração de relatórios com uma busca pesada no banco de dados",
       "Captura de exceções do sistema",
-      "Implementação de padrões PSR",
+      "PSR PHP",
     ],
     description:
-      "Limpei código com queries errôneas, implementei geração completa de relatórios de absenteísmo e desenvolvi funcionalidade para capturar exceções do sistema automaticamente.",
+      "Limpei código com queries errôneas, implementei geração completa de relatórios e desenvolvi funcionalidade para capturar exceções do sistema automaticamente.",
     logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGILem4wxKbpw/company-logo_100_100/company-logo_100_100/0/1630594552638/for_people_softwares_logo?e=1756944000&v=beta&t=yKIdNrCFagjlQJcJsdRjxd-T42x1vS0nSnFQZjJsuhQ",
   },
   {
@@ -132,7 +132,7 @@ const experiences: Experience[] = [
     position: "Full Stack Engineer",
     period: "Mai 2023 - Jan 2025",
     location: "Belo Horizonte, MG",
-    technologies: ["PHP", "Symfony", "TypeScript", "Linux", "AWS", "MySQL", "Docker", "RabbitMQ"],
+    technologies: ["PHP 5.3", "Symfony", "Node", "Java", "Linux", "AWS", "MySQL", "Docker", "RabbitMQ", "Jest", "PHPUnit", "Nginx", "CI/CD"],
     learnings: [
       "Projeto TypeScript para Raspberry Pi",
       "Regras de sanitização de segurança",
@@ -148,8 +148,8 @@ const experiences: Experience[] = [
     company: "Eletromidia",
     position: "Full Stack Engineer",
     period: "Jan 2025 - Presente",
-    location: "Brasil",
-    technologies: ["Node.js", "PHP", "Java", "Symfony", "Jest", "PHPUnit"],
+    location: "Belo Horizonte, MG",
+    technologies: ["Node.js", "Java", "Jest"],
     learnings: [
       "Algoritmos recursivos em Node.js",
       "Validação dinâmica de grupos de restrição",
@@ -700,7 +700,6 @@ export default function Portfolio() {
 
                               <div>
                                 <h4 className="text-slate-100 font-semibold mb-3 flex items-center">
-                                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-2"></span>
                                   Principais Aprendizados
                                 </h4>
                                 <ul className="text-slate-300 text-sm space-y-2">
